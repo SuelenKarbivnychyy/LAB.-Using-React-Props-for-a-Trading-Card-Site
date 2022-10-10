@@ -1,7 +1,15 @@
 'use strict';
 
 function Homepage() {
-  return <div>This component needs to be implemented.</div>;
+  return (
+    // <React.Fragments> 
+    <div>
+      <h2>Welcome, We are so happy you are here!</h2>
+      <a href="/cards">Click me to view the trading cards</a>
+      <img src="/static/img/balloonicorn.jpg"/>
+      </div>
+   
+  );
 }
 
 ReactDOM.render(<Homepage />, document.querySelector('#app'));

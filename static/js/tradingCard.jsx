@@ -13,7 +13,7 @@ function TradingCard(props) {
     <div className="card">
       <h2>Name: {props.name}</h2>
       <img src={props.imgUrl} alt="profile" />
-      <h2>Skill: </h2>
+      <h2>Skill: {props.skill} </h2>
     </div>
   );
 }
